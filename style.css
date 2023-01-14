@@ -1,0 +1,237 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0; 
+	padding: 0;
+	background-image: url("background.png");
+}
+h2{
+	font-size:16px;
+	font-family:Tahoma;
+	color:#e2e2e2;
+	text-shadow:0px 3px 1px black;
+    text-align: center;
+}
+/* HEAD */
+/* WEATHER */
+#weather-search-params{
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+}
+button, input{
+	border: none;
+    margin: 0;
+    padding: 0;
+	background: transparent;
+}
+.search{
+	width:20%;
+	height:30px;
+	border: 2px solid #81857f;
+	border-radius: 4px;
+	color:#e2e2e2;
+	text-align:center;
+	
+}
+.searchbutt{
+	width:10%;
+	height:30px;
+	border: 2px solid #d6ffbf;
+	background-color:#e0f5d5;
+	border-radius: 4px;
+	font-weight:700;
+	cursor: pointer;
+	transition: 0.5s ease-in-out;
+	top:500px;
+}
+.searchbutt:hover{
+	opacity: 0.75;
+}
+.Results{
+	margin-left:45px;
+}
+.current-weather-block {
+    display: block;
+    width: 350px;
+    height: 120px;
+    border: 1px solid #e2e2e2;
+    position: relative;
+    margin: 5px auto;
+    text-align: left;
+	color:#e2e2e2;
+	background-image: url("art_bg.png");
+}
+.current-weather-date {
+    font-weight: bold;
+    width: 350px;
+    text-align: left;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    font-size: 20px;
+	color:#e2e2e2;
+}
+.current-weather-icon {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100px;
+    height: 100px;
+	color:#e2e2e2;
+}
+.current-weather-temperature {
+    position: absolute;
+    top: 30px;
+    left: 110px;
+    font-size: 33px;
+    font-weight: bold;
+	color:#e2e2e2;
+}
+.current-weather-temperature-feels-like {
+    position: absolute;
+    top: 70px;
+    left: 110px;
+	color:#e2e2e2;
+}
+.current-weather-description {
+    position: absolute;
+    top: 90px;
+    left: 110px;
+	color:#e2e2e2;
+}
+/* 5 DNI:  */
+.weather-block {
+    display: block;
+    width: 220px;
+    height: 112px;
+    border: 1px solid #e2e2e2;
+    position: relative;
+    margin: 5px auto;
+	margin-left: 5px;
+    text-align: left;
+	color:#e2e2e2;
+	background-image: url("art_bg.png");
+	float:left;
+}
+.weather-date {
+    font-weight: bold;
+    width: 220px;
+    text-align: center;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    font-size: 14px;
+	color:#e2e2e2;
+}
+.weather-icon {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    width: 100px;
+    height: 100px;
+	color:#e2e2e2;
+}
+.weather-temperature {
+    position: absolute;
+    top: 30px;
+    left: 105px;
+    font-size: 16px;
+    font-weight: bold;
+	color:#e2e2e2;
+}
+.weather-temperature-feels-like {
+    position: absolute;
+    top: 60px;
+    left: 105px;
+	font-size: 12px;
+	color:#e2e2e2;
+}
+.weather-description {
+    position: absolute;
+    top: 75px;
+    left: 105px;
+    font-size: 12px;
+	color:#e2e2e2;
+}
+/* HEADER */
+.head{
+	width:100%;
+	height:80px;
+	background-color:#191919;
+	box-shadow: 0px 10px 30px 10px black;
+	padding-left:40px;
+}
+.title{
+	font-family:Times New Roman;
+	color:#e2e2e2;
+	font-size:25px;
+	padding-top:10px;
+	text-align:center;
+	text-shadow:0px 2px 5px black;
+}
+/* MAIN */
+.middle{
+	width:100%;
+	height:810px;
+	clear:both;
+	color:#e2e2e2;
+}
+/* FOOT */
+.foot{
+	padding-top:5px;
+	width:100%;
+	height:50px;
+	background-color:#191919;
+	box-shadow: 0px -10px 30px 10px black;
+}
+.author{
+	text-align:center;
+	text-shadow:0px 0px 5px black;
+	font-family:Times New Roman;
+	color:#e2e2e2;
+}
+/* SCALING */ /* SCALING */ /* SCALING */ /* SCALING */ /* SCALING */ /* SCALING */ /* SCALING */ 
+/* ADV */ /* ADV */ /* ADV */ /* ADV */ /* ADV */ /* ADV */ /* ADV */ /* ADV */ /* ADV */ /* ADV */ 
+
+/**/
+/* HEAD */
+@media only screen and (max-width: 675px) {
+.title{
+	font-size:45px;
+}
+.middle{
+	height:900px;
+}
+}
+@media only screen and (max-width: 650px) {
+.title{
+	font-size:40px;
+}
+}
+@media only screen and (max-width: 600px) {
+.title{
+	font-size:35px;
+}
+.middle{
+	height:850px;
+}
+}
+@media only screen and (max-width: 525px) {
+.head{
+	height:90px;
+}
+h2{
+	font-size:25px;
+}
+h3{
+	font-size:17px;
+}
+.Whole_art{
+	font-size:13px;
+}
+.middle{
+	height:750px;
+}
+}
